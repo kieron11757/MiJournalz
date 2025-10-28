@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiJournalz Support - iOS App Help Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 20px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: white;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .contact-item h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .contact-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            background: #f8f9fa;
+            padding: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            color: #2c3e50;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .faq-answer {
+            padding: 20px;
+            background: white;
+            color: #555;
+        }
+
+        .app-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .info-item {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .info-item strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            background: #28a745;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">MJ</div>
+            <h1>MiJournalz Support</h1>
+            <p class="subtitle">Your Personal Journaling Companion for iOS</p>
+            <span class="status-badge">✓ App Status: Online</span>
+        </div>
+
+        <div class="section">
+            <h2>📞 Contact Support</h2>
+            <p>Need help with MiJournalz? We're here to assist you! Choose the method that works best for you.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>📧 Email Support</h3>
+                    <p>Get detailed help via email</p>
+                    <a href="mailto:support@mijournalz.com">support@mijournalz.com</a>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>🐛 Bug Reports</h3>
+                    <p>Report issues or bugs</p>
+                    <a href="mailto:bugs@mijournalz.com">bugs@mijournalz.com</a>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>💡 Feature Requests</h3>
+                    <p>Suggest new features</p>
+                    <a href="mailto:features@mijournalz.com">features@mijournalz.com</a>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>📱 App Store</h3>
+                    <p>Rate and review on App Store</p>
+                    <a href="https://apps.apple.com/app/mijournalz" target="_blank">View on App Store</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>❓ Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I backup my journal entries?</div>
+                <div class="faq-answer">
+                    MiJournalz automatically syncs your entries to iCloud. To ensure backup is enabled, go to Settings > iCloud and make sure MiJournalz is turned on. You can also export your entries as PDF or text files from the app's export feature.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I use the app offline?</div>
+                <div class="faq-answer">
+                    Yes! MiJournalz works completely offline. You can write, edit, and organize your journal entries without an internet connection. Your entries will sync to iCloud when you're back online.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I restore my data if I reinstall the app?</div>
+                <div class="faq-answer">
+                    If you have iCloud sync enabled, simply sign in with the same Apple ID when reinstalling the app. Your data will automatically restore. If you don't have iCloud sync, you can restore from a backup using the import feature in Settings.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is my journal data private and secure?</div>
+                <div class="faq-answer">
+                    Absolutely! Your journal entries are encrypted and stored securely. We use end-to-end encryption for iCloud sync, and your data is never shared with third parties. Your privacy is our top priority.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I change the app's theme or appearance?</div>
+                <div class="faq-answer">
+                    Go to Settings > Appearance to customize your journaling experience. You can choose from different themes, font sizes, and color schemes to make the app feel personal to you.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📱 App Information</h2>
+            <p>Current version and system requirements for MiJournalz.</p>
+            
+            <div class="app-info">
+                <div class="info-item">
+                    <strong>Current Version</strong>
+                    <span>1.0.0</span>
+                </div>
+                
+                <div class="info-item">
+                    <strong>iOS Requirements</strong>
+                    <span>iOS 14.0 or later</span>
+                </div>
+                
+                <div class="info-item">
+                    <strong>App Size</strong>
+                    <span>25.4 MB</span>
+                </div>
+                
+                <div class="info-item">
+                    <strong>Last Updated</strong>
+                    <span>December 2024</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Quick Start Guide</h2>
+            <p>New to MiJournalz? Here's how to get started:</p>
+            <ol style="margin-left: 20px; margin-top: 15px;">
+                <li><strong>Create your first entry:</strong> Tap the "+" button on the main screen</li>
+                <li><strong>Set up categories:</strong> Organize your thoughts with custom tags and categories</li>
+                <li><strong>Enable notifications:</strong> Set daily reminders to maintain your journaling habit</li>
+                <li><strong>Explore features:</strong> Try mood tracking, photo attachments, and search functionality</li>
+                <li><strong>Customize settings:</strong> Personalize your experience in the Settings menu</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>🔒 Privacy & Legal</h2>
+            <p>Your privacy and data security are important to us. Learn more about how we protect your information.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>📋 Privacy Policy</h3>
+                    <p>Read our complete privacy policy</p>
+                    <a href="https://mijournalz.com/privacy" target="_blank">View Privacy Policy</a>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>📄 Terms of Service</h3>
+                    <p>App usage terms and conditions</p>
+                    <a href="https://mijournalz.com/terms" target="_blank">View Terms of Service</a>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>🛡️ Data Security</h3>
+                    <p>How we protect your journal entries</p>
+                    <a href="https://mijournalz.com/security" target="_blank">Learn About Security</a>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>📧 Privacy Contact</h3>
+                    <p>Questions about your data privacy</p>
+                    <a href="mailto:privacy@mijournalz.com">privacy@mijournalz.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 MiJournalz. All rights reserved.</p>
+            <p>Made with ❤️ for journaling enthusiasts</p>
+        </div>
+    </div>
+
+    <script>
+        // Simple FAQ toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isOpen = answer.style.display === 'block';
+                
+                // Close all other answers
+                document.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.style.display = 'none';
+                });
+                
+                // Toggle current answer
+                answer.style.display = isOpen ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
