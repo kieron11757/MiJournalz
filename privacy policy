@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MiJournalz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: white;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .contact-info {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .contact-info h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">MJ</div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">MiJournalz - Your Personal Journaling App</p>
+        </div>
+
+        <p class="last-updated">Last Updated: December 1, 2024</p>
+
+        <div class="highlight-box">
+            <strong>In Short:</strong> MiJournalz is designed with your privacy in mind. Your journal entries are stored locally on your device and optionally synced through iCloud. We do not collect, access, or share your personal journal data with any third parties.
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to MiJournalz. This Privacy Policy explains how we handle your information when you use our iOS application. We are committed to protecting your privacy and ensuring the security of your personal journal entries.</p>
+        <p>By using MiJournalz, you agree to the collection and use of information in accordance with this policy.</p>
+
+        <h2>2. Information We Collect</h2>
+        
+        <h3>2.1 Personal Journal Data</h3>
+        <p>MiJournalz stores the following information locally on your device:</p>
+        <ul>
+            <li>Journal entries (text, photos, and attachments you add)</li>
+            <li>Entry metadata (dates, categories, tags, mood tracking)</li>
+            <li>App settings and preferences</li>
+            <li>Custom categories and organizational data</li>
+        </ul>
+
+        <h3>2.2 Automatic Information</h3>
+        <p>We may collect certain information automatically, including:</p>
+        <ul>
+            <li>Device type and operating system version</li>
+            <li>App version and crash reports (to improve app stability)</li>
+            <li>Anonymous usage statistics (if you opt-in)</li>
+        </ul>
+
+        <h3>2.3 Information We DO NOT Collect</h3>
+        <p>We want to be clear about what we don't collect:</p>
+        <ul>
+            <li>We do NOT read or access your journal entries</li>
+            <li>We do NOT collect personal identification information</li>
+            <li>We do NOT track your location</li>
+            <li>We do NOT use third-party analytics that track your personal data</li>
+            <li>We do NOT sell or share your data with anyone</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>The information stored by MiJournalz is used solely for:</p>
+        <ul>
+            <li>Providing core journaling functionality</li>
+            <li>Syncing your data across your devices via iCloud (if enabled)</li>
+            <li>Improving app performance and fixing bugs</li>
+            <li>Delivering features you've requested</li>
+        </ul>
+
+        <h2>4. Data Storage and Security</h2>
+        
+        <h3>4.1 Local Storage</h3>
+        <p>All your journal entries are stored locally on your iOS device using Apple's secure storage framework. This data is protected by your device's security features, including encryption at rest.</p>
+
+        <h3>4.2 iCloud Sync</h3>
+        <p>If you enable iCloud sync, your journal data is encrypted and transmitted to your private iCloud account using Apple's secure infrastructure. We do not have access to your iCloud data. The data is protected by:</p>
+        <ul>
+            <li>End-to-end encryption during transmission</li>
+            <li>Apple's iCloud security measures</li>
+            <li>Your Apple ID authentication</li>
+        </ul>
+
+        <h3>4.3 Security Measures</h3>
+        <p>We implement industry-standard security measures including:</p>
+        <ul>
+            <li>Encrypted data storage</li>
+            <li>Secure coding practices</li>
+            <li>Regular security updates</li>
+            <li>Optional passcode/biometric protection</li>
+        </ul>
+
+        <h2>5. Data Sharing and Disclosure</h2>
+        <p>We do not share, sell, rent, or trade your personal information with third parties. Your journal entries remain private to you. The only exception would be:</p>
+        <ul>
+            <li>If required by law or legal process</li>
+            <li>To protect the rights, property, or safety of MiJournalz, our users, or others</li>
+            <li>With your explicit consent</li>
+        </ul>
+
+        <h2>6. Your Data Rights</h2>
+        <p>You have complete control over your data:</p>
+        <ul>
+            <li><strong>Access:</strong> You can access all your data within the app at any time</li>
+            <li><strong>Export:</strong> You can export your journal entries in multiple formats</li>
+            <li><strong>Delete:</strong> You can delete individual entries or all data at any time</li>
+            <li><strong>Control Sync:</strong> You can enable or disable iCloud sync at any time</li>
+        </ul>
+
+        <h2>7. Third-Party Services</h2>
+        <p>MiJournalz uses the following Apple services:</p>
+        <ul>
+            <li><strong>iCloud:</strong> For optional data sync (subject to Apple's Privacy Policy)</li>
+            <li><strong>iOS APIs:</strong> For core functionality (camera, photos, notifications)</li>
+        </ul>
+        <p>We do not integrate any third-party advertising, analytics, or tracking services that access your personal data.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>MiJournalz is suitable for users of all ages. We do not knowingly collect personal information from children under 13 without parental consent. If you believe we have inadvertently collected such information, please contact us immediately.</p>
+
+        <h2>9. Data Retention</h2>
+        <p>Your journal data is retained on your device until you choose to delete it. If you delete the app without backing up your data, all local data will be permanently deleted. iCloud data will be retained according to your iCloud settings and Apple's data retention policies.</p>
+
+        <h2>10. International Users</h2>
+        <p>MiJournalz is available worldwide. Your data is stored on your device and optionally in your iCloud account, which may be located in different countries based on your Apple ID settings. By using the app, you consent to the transfer of information to countries where iCloud operates.</p>
+
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by:</p>
+        <ul>
+            <li>Posting the new Privacy Policy on this page</li>
+            <li>Updating the "Last Updated" date</li>
+            <li>Providing an in-app notification for significant changes</li>
+        </ul>
+        <p>We encourage you to review this Privacy Policy periodically for any changes.</p>
+
+        <h2>12. Your Consent</h2>
+        <p>By using MiJournalz, you consent to our Privacy Policy and agree to its terms.</p>
+
+        <div class="contact-info">
+            <h3>13. Contact Us</h3>
+            <p>If you have any questions about this Privacy Policy, please contact us:</p>
+            <ul>
+                <li><strong>Email:</strong> privacy@mijournalz.com</li>
+                <li><strong>Support:</strong> support@mijournalz.com</li>
+                <li><strong>Website:</strong> https://mijournalz.com/support</li>
+            </ul>
+            <p>We typically respond to privacy inquiries within 48 hours.</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>MiJournalz</strong></p>
+            <p>&copy; 2024 MiJournalz. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+
